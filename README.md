@@ -1,4 +1,4 @@
-# Network traffic analysis
+# Development security operations
 
 ![Publish blue-devsecops using Sphinx](https://github.com/tymyrddin/blue-devsecops/workflows/Publish%20blue-devsecops%20using%20Sphinx/badge.svg?branch=main)
 
