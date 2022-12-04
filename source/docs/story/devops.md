@@ -4,10 +4,9 @@ In 2008, a conversation between Andrew Clay and Patrick Debois led to something 
 the drawbacks of Agile, DevOps was born. After an event in Belgium the following year called "DevOpsDays," DevOps 
 became the next buzzword, and its popularity increased.
 
-| ![RedLine](../../_static/images/devops.png)
+| ![DevOps Empire](../../_static/images/devops.png)
 |:--:|
-| DevOps is quite different from other methodologies because it focuses on driving "cultural change" to increase 
-efficiency. |
+| DevOps is quite different from other methodologies because it focuses on driving "cultural change" to increase efficiency. |
 
 It attempts to unite the magic of all teams working on a project, using integration and automation. 
 With these ingredients, you get a cross-integration across all departments, QA+sysadmins+developers. 
