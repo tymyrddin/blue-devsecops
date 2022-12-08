@@ -26,4 +26,4 @@ This path is in development. I eagerly await the rest ...
 .. toctree::
    :caption: Links
 
-   Blue Team <https://tymyrddin.github.io/blue/>
+   Blue Team <https://blue.tymyrddin.dev/>
