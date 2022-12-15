@@ -6,7 +6,7 @@ became the next buzzword, and its popularity increased.
 
 | ![DevOps Empire](../../_static/images/devops.png)
 |:--:|
-| DevOps is quite different from other methodologies because it focuses on driving "cultural change" to increase efficiency. |
+| DevOps is quite different from other methodologies because it focuses on driving <br>"cultural change" to increase efficiency. |
 
 It attempts to unite the magic of all teams working on a project, using integration and automation. 
 With these ingredients, you get a cross-integration across all departments, QA+sysadmins+developers. 
@@ -23,6 +23,10 @@ DevOps builds a philosophy that emphasises building trust and better liaising be
 the impact and value to the business as projects become more efficient and prioritised accordingly. Changes rolled 
 out are usually small and reversible, visible to all teams involved. This ensures better contribution and communication 
 that helps with the pace and an increased competency when delivering work.
+
+| ![DevOps Desperate](../../_static/images/desperate-devops.png)
+|:--:|
+| [No starch press: DevOps for the Desperate - A Hands-On Survival Guide](https://nostarch.com/devops-desperate) |
 
 ## TL;DR
 

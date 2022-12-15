@@ -24,6 +24,21 @@ This path is in development. I eagerly await the rest ...
    docs/story/culture.md
 
 .. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: SSDLC
+
+   docs/ssdlc/README.md
+   docs/ssdlc/implement.md
+   docs/ssdlc/risk-assess.md
+   docs/ssdlc/threat-model.md
+   docs/ssdlc/coding.md
+   docs/ssdlc/sec-assess.md
+   docs/ssdlc/methodologies.md
+   docs/ssdlc/space.md
+
+.. toctree::
    :caption: Links
 
    Blue Team <https://blue.tymyrddin.dev/>

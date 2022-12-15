@@ -42,3 +42,5 @@ a:hover {
 .rst-content code.literal, .rst-content tt.literal {
   color: #0066DD;
 }
+
+.center {text-align: center;}
