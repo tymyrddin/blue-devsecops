@@ -24,10 +24,6 @@ the impact and value to the business as projects become more efficient and prior
 out are usually small and reversible, visible to all teams involved. This ensures better contribution and communication 
 that helps with the pace and an increased competency when delivering work.
 
-| ![DevOps Desperate](../../_static/images/desperate-devops.png)
-|:--:|
-| [No starch press: DevOps for the Desperate - A Hands-On Survival Guide](https://nostarch.com/devops-desperate) |
-
 ## TL;DR
 
 Thanks to the advent of DevOps, today's development infrastructure is fully automated and operates on a self-service 
@@ -50,6 +46,11 @@ the changes, e.g. "deploy changes" button, after all the automated checks and ne
 In such a workflow, even a tiny problem could create a mess. Moreover, as the number of new releases increases 
 (the actual case), the whole matter may turn disastrous. Things would surely go out of hand with an issue still 
 unresolved and plenty of features scheduled to be released.
+
+
+| ![DevOps Desperate](../../_static/images/desperate-devops.png)
+|:--:|
+| [No starch press: DevOps for the Desperate - A Hands-On Survival Guide](https://nostarch.com/devops-desperate) |
 
 ## Resources
 

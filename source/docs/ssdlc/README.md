@@ -20,7 +20,4 @@ To be able to support the desperate better.
 * [Secure coding](coding.md)
 * [Security assessments](sec-assess.md)
 * [SSDLC methodologies](methodologies.md)
-* [Secure space lifecycle](space.md)
-
-
 
