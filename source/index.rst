@@ -33,8 +33,3 @@ This path is in development. I eagerly await the rest ...
    docs/ssdlc/coding.md
    docs/ssdlc/sec-assess.md
    docs/ssdlc/methodologies.md
-
-.. toctree::
-   :caption: Links
-
-   Blue Team <https://blue.tymyrddin.dev/>
