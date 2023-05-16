@@ -3,7 +3,7 @@
 Built with [Sphinx](https://www.sphinx-doc.org) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided
 by [Read the Docs](https://readthedocs.org/).
 
-[![Documentation Status](https://readthedocs.org/projects/blue-devsecops/badge/?version=latest)](https://blue.tymyrddin.dev/projects/devsecops/en/latest/?badge=latest)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a9b121bc-6cf1-4784-bc07-3475732a7a16/deploy-status)](https://app.netlify.com/sites/amazing-tarsier-26f007/deploys)
 
 ## Requirements
 
