@@ -1,7 +1,3 @@
-| ![Introduction to DevSecOps](../../_static/images/introductiontodevsecops.png)
-|:--:|
-| [THM Room: SSDLC](https://tryhackme.com/room/securesdlc) |
-
 # Introduction
 
 ## What?

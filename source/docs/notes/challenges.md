@@ -1,10 +1,26 @@
-# DevSecOps culture
+# Growing list of challenges
+
+## Security silos
+
+It is common for many security teams to be left out of DevOps processes and portray security as a separate entity, where specialised people can only maintain and lead security practices. This situation creates a silo around security and prevents engineers from understanding the necessity of security or applying security measures from the beginning.
+
+This is not scalable or flexible. Security should be a supportive function to help other teams scale and build security, without security teams being a blocker, but rather a ramp to promote secure solutions and decisions. The best practice is to share these responsibilities across all team members instead of having a specialised security engineer.
+
+## Lack of visibility & prioritisation
+
+Aim to create a culture where security and other essential application components treat security as a regular aspect of the application. Developers can then focus on development with confidence about security instead of security departments playing police and the blame game. Trust should be built between teams, and security should promote the autonomy of teams by establishing processes that instil security.
+
+## Stringent processes
+
+Every new experiment or piece of software must not go through a complicated process and verification against security compliances before being used by developers. Procedures should be flexible to account for these scenarios, where lower-level tasks should be treated differently, and higher-risk tasks and changes are targeted for these more stringent processes.
+
+Developers need environments to test new software without common security limitations. These environments are known as "SandBoxes", which are temporarily isolated environments. These environments have no connection to any internal network and have no customer data.
 
 ## Promote autonomy of teams
 
 Whether it is a large organization or a start-up in hypergrowth, the only way to not leave security behind is by promoting the autonomy of teams. This can be done by automating processes that fit seamlessly with the development pipeline until security tests become just another type of test, like unit testing, smoke bombs, etc.
 
-Leading by example and promoting education like creating playbooks / runbooks to spot these flaws and fix them, understand their risk, and build confidence in engineers to make the secure decision independently. The ratio of developers, platform, infrastructure engineers, etc., won't be the same as security engineers, and we must understand they can't be in every conversation. Security should act as a supporting function that focuses on building trust and creating as much overlap in knowledge between teams as possible.
+Leading by example and promoting education like creating playbooks/runbooks to spot these flaws and fix them, understand their risk, and build confidence in engineers to make the secure decision independently. The ratio of developers, platform, infrastructure engineers, etc., won't be the same as security engineers, and we must understand they can't be in every conversation. Security should act as a supporting function that focuses on building trust and creating as much overlap in knowledge between teams as possible.
 
 ## Visibility and transparency
 
@@ -18,8 +34,6 @@ Instilling security in DevOps processes with visibility and transparency is no e
 
 There is no magic tool or process for everyone. It is essential to understand how developers/engineers work, what they know to be a risk, and what they prioritize. If you know their perspective, it's easier to build a process that finds common ground and has a higher chance to work vs adding another tool that creates more noise and stress for everyone. This understanding builds perspective, which accounts for empathy for how other teams work and builds a process that accounts for flexibility. This is needed because every situation might be different, deadlines might be different, and bandwidth can change over time.
 
-As a DevSecOps engineer, suppose you took the time to understand how a team owns a service. In that case, that will have a security scanner added to its development process, worked and viewed priority; it will be easier to get their buy-in and demonstrate value. For example, if it's a platform team and owns an internal service but a core service, a risk would be a bug that disrupts the service, not a potential injection that lives behind a proxy. You would need internal credentials to exploit it. You can tune the scanners or add a triaging process that tackles the questions they would ask themselves, and this would, in turn, build trust vs crying wolf and security processes being questioned.
+As a DevSecOps engineer, suppose you took the time to understand how a team owns a service. You can tune the scanners or add a triaging process that tackles the questions they would ask themselves, and this would, in turn, build trust vs crying wolf and security processes being questioned.
 
-## Resources
 
-* [3 DevSecOps success stories](https://www.csoonline.com/article/3439737/3-devsecops-success-stories.html)

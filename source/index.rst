@@ -16,14 +16,12 @@ Many factors can make such a significant cultural shift difficult, from entrench
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: The story
+   :caption: Notes
 
-   docs/story/README.md
-   docs/story/devops.md
-   docs/story/loop.md
-   docs/story/left.md
-   docs/story/devsecops.md
-   docs/story/culture.md
+   docs/notes/README.md
+   docs/notes/story.md
+   docs/notes/challenges.md
+   docs/notes/barebones.md
 
 .. toctree::
    :glob:
