@@ -1,9 +1,5 @@
 # Secure coding
 
-| ![Secure coding](../../_static/images/clean-code.png)
-|:--:|
-| [No starch press: The Art of Clean Code - Best Practices to Eliminate Complexity and Simplify Your Life](https://nostarch.com/art-clean-code) |
-
 * Concentrate on the important stuff with the 80/20 principle — focus on the 20% of your code that matters most
 * Avoid coding in isolation: create a minimum viable product to get early feedback
 * Write code cleanly and simply to eliminate clutter
