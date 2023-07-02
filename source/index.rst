@@ -47,6 +47,16 @@ Books
 .. card-carousel:: 3
 
     .. card::
+        :link: http://devops.com/2015/10/13/devops-systems-record-new-hope-preview-talk/
+
+        .. image:: _static/images/bookcovers/devops.png
+
+    .. card::
+        :link: https://nostarch.com/devops-desperate
+
+        .. image:: _static/images/bookcovers/desperate-devops.png
+
+    .. card::
         :link: https://www.manning.com/books/securing-devops
 
         .. image:: _static/images/bookcovers/securing-devops.png

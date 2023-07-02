@@ -4,19 +4,9 @@ In 2008, a conversation between Andrew Clay and Patrick Debois led to something 
 the drawbacks of Agile, DevOps was born. After an event in Belgium the following year called "DevOpsDays," DevOps 
 became the next buzzword, and its popularity increased.
 
-| ![DevOps Empire](../../_static/images/devops.png)
-|:--:|
-| DevOps is quite different from other methodologies because it focuses on driving <br>"cultural change" to increase efficiency. |
+DevOps is quite different from other methodologies because it focuses on driving <br>"cultural change" to increase efficiency. It attempts to unite the magic of all teams working on a project, using integration and automation. With these ingredients, you get a cross-integration across all departments, QA+sysadmins+developers. 
 
-It attempts to unite the magic of all teams working on a project, using integration and automation. 
-With these ingredients, you get a cross-integration across all departments, QA+sysadmins+developers. 
-
-For example, 
-ensuring developers can now be involved in deployment and sysadmins can now write scripts, QA can figure out how to 
-fix flaws vs constantly testing for functionality. By introducing automation and integration of systems, these 
-engineers can now have the same visibility at all times and interact accordingly. We will dive more into how DevOps 
-does this in the latter rooms as we talk about pipelines, automation, Continuous Integration and Continuous Delivery 
-(CI/CD).
+For example, ensuring developers can now be involved in deployment and sysadmins can now write scripts, QA can figure out how to fix flaws vs constantly testing for functionality. By introducing automation and integration of systems, these engineers can now have the same visibility at all times and interact accordingly. We will dive more into how DevOps does this in the latter rooms as we talk about pipelines, automation, Continuous Integration and Continuous Delivery (CI/CD).
 
 DevOps builds a philosophy that emphasises building trust and better liaising between developers and other teams 
 (sysadmins, QA, etc.). This helps the organisation align technological projects to business requirements, increasing 
@@ -46,11 +36,6 @@ the changes, e.g. "deploy changes" button, after all the automated checks and ne
 In such a workflow, even a tiny problem could create a mess. Moreover, as the number of new releases increases 
 (the actual case), the whole matter may turn disastrous. Things would surely go out of hand with an issue still 
 unresolved and plenty of features scheduled to be released.
-
-
-| ![DevOps Desperate](../../_static/images/desperate-devops.png)
-|:--:|
-| [No starch press: DevOps for the Desperate - A Hands-On Survival Guide](https://nostarch.com/devops-desperate) |
 
 ## Resources
 
