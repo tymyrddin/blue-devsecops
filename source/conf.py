@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Development security operations'
+project = 'Shifting left'
 copyright = '2022, Ty Myrddin'
 author = 'Ty Myrddin'
 release = '0.1'
@@ -21,6 +21,7 @@ extensions = [
     'sphinx_markdown_tables',
     'sphinx.ext.intersphinx',
     'sphinx_copybutton',
+    'sphinx_design',
 ]
 
 source_suffix = ['.rst', '.md']
@@ -53,7 +54,7 @@ html_theme_options = {
     'titles_only': False
 }
 
-html_title = "Development security operations"
+html_title = "Shifting left"
 html_logo = "img/logo.png"
 html_favicon = "img/favicon.ico"
 
@@ -79,3 +80,10 @@ intersphinx_mapping = {
     "blue": ("https://blue.tymyrddin.dev/", None),
 }
 myst_url_schemes = ["http", "https", ]
+
+myst_enable_extensions = [
+    "amsmath",
+    "dollarmath",
+    "tasklist",
+    "colon_fence",
+]
