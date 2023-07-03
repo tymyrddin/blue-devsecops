@@ -1,6 +1,6 @@
 # Securing virtual machines
 
-Each cloud provider has its own implementation of VMs (or virtual servers), and the basic idea is the same:
+Each cloud provider has its own implementation of VMs (or virtual servers). The basic idea remains the same:
 
 1. Select a machine type (or size).
 2. Select a preinstalled image of an operating system.

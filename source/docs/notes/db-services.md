@@ -1,8 +1,6 @@
 # Securing managed database services
 
-According to the shared responsibility model, if we choose to use a managed database, the cloud provider is responsible for the operating system and database layers of the managed database (including patch management, backups, and auditing).
-
-To deploy a specific build of a database, it can always be deployed inside a VM, but that means overseeing the operating system and database maintenance (including hardening, backup, patch management, and monitoring). Another option is a managed solution for running the database engine. 
+To deploy a specific build of a database, it can always be deployed inside a VM, but that means overseeing the operating system and database maintenance (including hardening, backup, patch management, and monitoring). Another option is a managed solution for running the database engine:
 
 * Maintenance of the database, security patch deployment, and availability of the database are under the responsibility of the cloud provider.
 * Backups are included as part of the service (up to a certain amount of storage and amount of backup history).
