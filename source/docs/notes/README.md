@@ -26,3 +26,5 @@ To be able to support the desperate better.
 * [Shared responsibility](shared.md)
 * [Securing virtual machines](vms.md)
 * [Securing managed database services](db-services.md)
+* [Securing containers](containers.md)
+* [Securing serverless/function as a service](functions.md)

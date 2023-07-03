@@ -22,11 +22,7 @@ Even traditional infrastructures can benefit from modern DevOps techniques by bu
 
 ## GitHub
 
-1. Fork the [invoicer application](https://github.com/Securing-DevOps/invoicer-chapter2) in your own GitHub account.
-2. Read the `config.yaml`
-3. Read the `Dockerfile`
-
-### config.yaml
+### Example config.yaml
 
 ```text
 version: 2
@@ -114,7 +110,7 @@ Push the container to Docker Hub:
          fi
 ```
 
-### Dockerfile
+### Example Dockerfile
 
 ```text
 FROM golang:latest

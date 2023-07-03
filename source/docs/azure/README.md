@@ -12,4 +12,6 @@ To be able to support the desperate better.
 
 * [Virtual Machines](vms.md)
 * [Database for MySQL](db-mysql.md)
+* [Container Instances (ACI)](aci.md)
+* [Kubernetes Service (AKS)](aks.md)
 

@@ -32,6 +32,8 @@ Many factors can make such a significant cultural shift difficult, from entrench
    docs/notes/shared.md
    docs/notes/vms.md
    docs/notes/db-services.md
+   docs/notes/containers.md
+   docs/notes/functions.md
 
 ----
 
@@ -73,6 +75,9 @@ Many factors can make such a significant cultural shift difficult, from entrench
    docs/azure/README.md
    docs/azure/vms.md
    docs/azure/db-mysql.md
+   docs/azure/aci.md
+   docs/azure/aks.md
+   docs/azure/functions.md
 
 ----
 
@@ -85,6 +90,8 @@ Many factors can make such a significant cultural shift difficult, from entrench
    docs/gcp/README.md
    docs/gcp/gce.md
    docs/gcp/sql-mysql.md
+   docs/gcp/gke.md
+   docs/gcp/functions.md
 
 ----
 
