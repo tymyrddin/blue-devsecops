@@ -15,9 +15,9 @@ To help grasp what the current security posture is, start by doing the following
 
 ## SSDLC processes
 
-| ![Implementation](../../_static/images/implementation.png)
-|:--:|
-| A secure SDLC involves integrating processes like security testing and other activities into <br>an existing development process. |
+A secure SDLC involves integrating processes like security testing and other activities into <br>an existing development process:
+
+![Implementation](../../_static/images/implementation.png)
 
 * Risk Assessment - during the early stages of SDLC, it is essential to identify security considerations that promote a security by design approach when functional requirements are gathered in the planning and requirements stages. For example, if a user requests a blog entry from a site, the user should not be able to edit the blog or remove unnecessary input fields.
 * Threat Modelling - is the process of identifying potential threats when there is a lack of appropriate safeguards. It is very effective when following a risk assessment and during the design stage of the SDLC, as Threat Modelling focuses on what should not happen. In contrast, design requirements state how the software will behave and interact. For example, ensure there is verification when a user requests account information.

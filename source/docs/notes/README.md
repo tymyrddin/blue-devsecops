@@ -22,7 +22,7 @@ To be able to support the desperate better.
 
 ## How?
 
-* [The story sofar](story.md)
-* [Growing list of challenges](challenges.md)
 * [Barebones pipeline](barebones.md)
-
+* [Shared responsibility](shared.md)
+* [Securing virtual machines](vms.md)
+* [Securing managed database services](db-services.md)

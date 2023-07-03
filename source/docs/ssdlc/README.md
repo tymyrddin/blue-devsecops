@@ -10,6 +10,8 @@ To be able to support the desperate better.
 
 ## How?
 
+* [The story sofar](story.md)
+* [Challenges](challenges.md)
 * [Implementing SSDLC](implement.md)
 * [Risk assessment](risk-assess.md)
 * [Threat modelling](threat-model.md)

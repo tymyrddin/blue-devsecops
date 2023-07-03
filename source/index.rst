@@ -13,15 +13,80 @@ Many factors can make such a significant cultural shift difficult, from entrench
 ----
 
 .. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: Testlab
+
+   Cloud tools <https://testlab.tymyrddin.dev/docs/cloud/readme>
+
+----
+
+.. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
    :caption: Notes
 
    docs/notes/README.md
-   docs/notes/story.md
-   docs/notes/challenges.md
    docs/notes/barebones.md
+   docs/notes/shared.md
+   docs/notes/vms.md
+   docs/notes/db-services.md
+
+----
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Securing AWS
+
+   docs/aws/README.md
+   docs/aws/ec2.md
+   docs/aws/rds-mysql.md
+   docs/aws/ecs.md
+   docs/aws/eks.md
+   docs/aws/lambda.md
+   docs/aws/s3.md
+   docs/aws/ebs.md
+   docs/aws/efs.md
+   docs/aws/csi.md
+   docs/aws/vpc.md
+   docs/aws/route53.md
+   docs/aws/cloudfront.md
+   docs/aws/s2s-vpn.md
+   docs/aws/client-vpn.md
+   docs/aws/shield.md
+   docs/aws/waf.md
+   docs/aws/iam.md
+   docs/aws/directory.md
+   docs/aws/mfa.md
+
+----
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Securing Azure
+
+   docs/azure/README.md
+   docs/azure/vms.md
+   docs/azure/db-mysql.md
+
+----
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Securing GCP
+
+   docs/gcp/README.md
+   docs/gcp/gce.md
+   docs/gcp/sql-mysql.md
+
+----
 
 .. toctree::
    :glob:
@@ -30,6 +95,8 @@ Many factors can make such a significant cultural shift difficult, from entrench
    :caption: SSDLC
 
    docs/ssdlc/README.md
+   docs/ssdlc/story.md
+   docs/ssdlc/challenges.md
    docs/ssdlc/implement.md
    docs/ssdlc/risk-assess.md
    docs/ssdlc/threat-model.md
