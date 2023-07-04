@@ -26,7 +26,7 @@ Access to AWS resources and services such as EC2 instances is controlled via [se
 * For remote access protocols (SSH/RDP), limit the source IP (or CIDR) to well-known addresses. Good alternatives for allowing remote access protocols to an EC2 instance are to use a VPN tunnel, a bastion host, or [AWS Systems Manager Session Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html).
 * For file sharing protocols (CIFS/SMB/FTP), limit the source IP (or CIDR) to well-known addresses.
 * Set names and descriptions for security groups to allow a better understanding of the security group's purpose.
-* Use tagging (that is, labeling) for security groups to allow a better understanding of which security group belongs to which AWS resources.
+* Use tagging (labelling) for security groups to allow a better understanding of which security group belongs to which AWS resources.
 * Limit the number of ports allowed in a security group to the minimum required ports for allowing your service or application to function.
 
 ## Instance metadata
@@ -70,7 +70,7 @@ To deploy security patches for either Windows or Linux-based instances in a stan
 
 * Use AWS Systems Manager Compliance to make sure all your EC2 instances are up to date.
 * Create a group with minimal IAM privileges to allow only relevant team members to conduct patch deployment.
-* Use tagging (that is, labeling) for your EC2 instances to allow patch deployment groups per tag (for example, production versus development environments).
+* Use tagging (labelling) for your EC2 instances to allow patch deployment groups per tag (for example, production versus development environments).
 * For stateless EC2 instances (where no user session data is stored inside an EC2 instance), replace an existing EC2 instance with a new instance, created from an up-to-date operating system image.
 
 ## Backups
@@ -81,5 +81,5 @@ The [AWS Backup](https://aws.amazon.com/blogs/storage/protecting-your-data-with-
 
 * Configure the AWS Backup service with an IAM role to allow access to the encryption keys stored inside AWS KMS.
 * Configure the AWS Backup service with an IAM role to allow access to your backup vault.
-* Use tagging (that is, labeling) for backups to allow a better understanding of which backup belongs to which EC2 instance.
+* Use tagging (labelling) for backups to allow a better understanding of which backup belongs to which EC2 instance.
 * Consider [replicating backups to another region](https://docs.aws.amazon.com/aws-backup/latest/devguide/cross-region-backup.html).

@@ -28,7 +28,7 @@ Access to GCP resources and services such as VM instances is controlled via [VPC
 * For remote access protocols (SSH/RDP), limit the source IP (or CIDR) to well-known addresses.
 * For file sharing protocols (CIFS/SMB/FTP), limit the source IP (or CIDR) to well-known addresses.
 * Set names and descriptions for firewall rules to allow a better understanding of the security group's purpose.
-* Use tagging (that is, labeling) for firewall rules to allow a better understanding of which firewall rule belongs to which GCP resources.
+* Use tagging (labelling) for firewall rules to allow a better understanding of which firewall rule belongs to which GCP resources.
 * Limit the number of ports allowed in a firewall rule to the minimum required ports for allowing your service or application to function.
 
 ## Serial console connection

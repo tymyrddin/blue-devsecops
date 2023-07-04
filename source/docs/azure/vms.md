@@ -26,7 +26,7 @@ Access to Azure resources and services such as VMs is controlled via [network se
 * For remote access protocols (SSH/RDP), limit the source IP (or CIDR) to well-known addresses. Good alternatives for allowing remote access protocols to an Azure VM is to use a VPN tunnel, use [Azure Bastion](https://azure.microsoft.com/en-us/services/azure-bastion), or use [Azure Privileged Identity Management (PIM)](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure) to allow just-in-time access to a remote VM.
 * For file sharing protocols (CIFS/SMB/FTP), limit the source IP (or CIDR) to well-known addresses.
 * Set names for network security groups to allow a better understanding of the security group's purpose.
-* Use tagging (that is, labeling) for network security groups to allow a better understanding of which network security group belongs to which Azure resources.
+* Use tagging (labelling) for network security groups to allow a better understanding of which network security group belongs to which Azure resources.
 * Limit the number of ports allowed in a network security group to the minimum required ports for allowing a service or application to function. 
 
 ## Serial console connection
@@ -63,7 +63,7 @@ To deploy security patches for either Windows or Linux-based instances in a stan
 * Use update classifications to define which security patches to deploy.
 * When using an Azure Automation account, encrypt sensitive data (such as variable assets).
 * When using an Azure Automation account, use private endpoints to disable public network access.
-* Use tagging (that is, labeling) for your VMs to allow defining dynamic groups of VMs (for example, prod versus dev environments).
+* Use tagging (labelling) for your VMs to allow defining dynamic groups of VMs (for example, prod versus dev environments).
 * For stateless VMs (where no user session data is stored inside an Azure VM), replace an existing Azure VM with a new instance, created from an up-to-date operating system image.
 
 ## Backups
