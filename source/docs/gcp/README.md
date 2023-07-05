@@ -13,4 +13,6 @@ To be able to support the desperate better.
 * [Compute Engine (GCE) and VM instances](gce.md)
 * [SQL for MySQL](sql-mysql.md)
 * [Kubernetes Engine (GKE)](gke.md)
+* [Functions](functions.md)
+* [CSI](csi.md)
 

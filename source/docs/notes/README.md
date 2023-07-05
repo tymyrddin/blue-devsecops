@@ -28,3 +28,7 @@ To be able to support the desperate better.
 * [Securing managed database services](db-services.md)
 * [Securing containers](containers.md)
 * [Securing serverless/function as a service](functions.md)
+* [Securing object storage](object.md)
+* [Securing block storage](block.md)
+* [Securing file storage](file.md)
+* [Securing the CSI](csi.md)

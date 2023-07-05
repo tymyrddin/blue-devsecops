@@ -14,4 +14,9 @@ To be able to support the desperate better.
 * [Database for MySQL](db-mysql.md)
 * [Container Instances (ACI)](aci.md)
 * [Kubernetes Service (AKS)](aks.md)
+* [Functions](functions.md)
+* [Blob storage](blob.md)
+* [Managed disks](disks.md)
+* [Files](files.md)
+* [CSI](csi.md)
 

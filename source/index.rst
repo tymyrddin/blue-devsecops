@@ -34,14 +34,21 @@ Many factors can make such a significant cultural shift difficult, from entrench
    docs/notes/db-services.md
    docs/notes/containers.md
    docs/notes/functions.md
+   docs/notes/object.md
+   docs/notes/block.md
+   docs/notes/file.md
+   docs/notes/csi.md
 
 ----
+
+Best practices
+------------------------------------------
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Securing AWS
+   :caption: AWS
 
    docs/aws/README.md
    docs/aws/ec2.md
@@ -64,13 +71,11 @@ Many factors can make such a significant cultural shift difficult, from entrench
    docs/aws/directory.md
    docs/aws/mfa.md
 
-----
-
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Securing Azure
+   :caption: Azure
 
    docs/azure/README.md
    docs/azure/vms.md
@@ -78,20 +83,23 @@ Many factors can make such a significant cultural shift difficult, from entrench
    docs/azure/aci.md
    docs/azure/aks.md
    docs/azure/functions.md
-
-----
+   docs/azure/blob.md
+   docs/azure/disks.md
+   docs/azure/files.md
+   docs/azure/csi.md
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Securing GCP
+   :caption: GCP
 
    docs/gcp/README.md
    docs/gcp/gce.md
    docs/gcp/sql-mysql.md
    docs/gcp/gke.md
    docs/gcp/functions.md
+   docs/gcp/csi.md
 
 ----
 
