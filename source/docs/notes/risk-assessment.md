@@ -22,3 +22,6 @@ The Quantitative Risk Assessment is used to measure risk with numerical values. 
 
 For example, suppose there are services with assigned business criticality levels. In that case, you can say that if a bug affects a business-critical service (an authentication service, a payment infrastructure etc.), you will assign 5 points. This highlights why it is vital to understand a security posture and its processes. Measuring risk and priority with an endemic equation to a company's services will have great results.
 
+## Real-world
+
+Supply-chain attacks are one of the most serious risks.
