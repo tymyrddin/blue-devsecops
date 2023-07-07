@@ -28,6 +28,14 @@ Many factors can make such a significant cultural shift difficult, from entrench
    :caption: Notes
 
    docs/notes/README.md
+   docs/notes/story.md
+   docs/notes/challenges.md
+   docs/notes/methodologies.md
+   docs/notes/implement.md
+   docs/notes/risk-assessment.md
+   docs/notes/threat-model.md
+   docs/notes/coding.md
+   docs/notes/sec-assessment.md
    docs/notes/barebones.md
    docs/notes/shared.md
    docs/notes/vms.md
@@ -99,25 +107,10 @@ Best practices
    docs/gcp/sql-mysql.md
    docs/gcp/gke.md
    docs/gcp/functions.md
+   docs/gcp/storage.md
+   docs/gcp/disk.md
+   docs/gcp/filestore.md
    docs/gcp/csi.md
-
-----
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: SSDLC
-
-   docs/ssdlc/README.md
-   docs/ssdlc/story.md
-   docs/ssdlc/challenges.md
-   docs/ssdlc/implement.md
-   docs/ssdlc/risk-assess.md
-   docs/ssdlc/threat-model.md
-   docs/ssdlc/coding.md
-   docs/ssdlc/sec-assess.md
-   docs/ssdlc/methodologies.md
 
 ----
 

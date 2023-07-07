@@ -2,7 +2,17 @@
 
 Threat modelling is best integrated into the design phase of an SDLC before any code is written. Threat modelling is a structured process of identifying potential security threats and prioritising techniques to mitigate attacks so that data or assets that have been classified as valuable or of higher risk during risk assessment, such as confidential data, are protected. When performed early, it brings a great advantage; potential issues can be found early and solved, saving fixing costs down the line.
 
-There are various methods to perform threat modelling. Not all the methods have the same purpose; some focus on risk or privacy concerns, while some are more customer-focused. We can combine these methods to understand potential threats better; it is essential to analyse which way aligns more with the project or business. STRIDE, DREAD, and PASTA are among the common threat modelling methodologies.
+There are various methods to perform threat modelling. Not all the methods have the same purpose; some focus on risk or privacy concerns, while some are more customer-focused. The methods can be combined to understand potential threats better; it is essential to analyse which way aligns more with the project or business. STRIDE, DREAD, and PASTA are among the common threat modelling methodologies. Don't let the process or tools limit the team's learning and innovation.
+
+Often, the objective of threat modelling is to discuss the most relevant and high-priority security risks with mitigations. If it is a very large project, and most of
+the modules serve similar functions, it may be beneficial to perform the threat modelling with high-risk parts or the one which can mostly represent the business functions.
+
+Recommended modules for threat modelling and code reviewing:
+
+* Modules with security controls such as authentication, authorisation, session management, encryption, data validation, error handling, or logging, administration, and database handlers.
+* Legacy modules with vulnerable CVE.
+* Modules that may externally interact with unknown users or third-party APIs.
+* Modules that handle sensitive information.
 
 ## STRIDE
 

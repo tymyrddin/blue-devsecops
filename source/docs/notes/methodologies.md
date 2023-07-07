@@ -12,6 +12,7 @@ SDL principles:
 SDL is a collection of mandatory security activities grouped by the traditional software development lifecycle phases. Data is collected to assess training effectiveness. In-process metrics are used to confirm process compliance. Post-release metrics are used to guide future changes. SDL places heavy emphasis on understanding the cause and effect of security vulnerabilities. A development team must complete the mandatory security activities to comply with the Microsoft SDL process.
 
 ## OWASP's S-SDLC
+
 S-SDLC Principles
 
 * SDL is a collection of mandatory security activities grouped by the traditional software development lifecycle phases.

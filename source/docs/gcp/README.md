@@ -14,5 +14,8 @@ To be able to support the desperate better.
 * [SQL for MySQL](sql-mysql.md)
 * [Kubernetes Engine (GKE)](gke.md)
 * [Functions](functions.md)
-* [CSI](csi.md)
+* [Storage](storage.md)
+* [Permanent Disk](disk.md)
+* [Filestore](filestore.md)
+* [Container Storage Interface (CSI)](csi.md)
 

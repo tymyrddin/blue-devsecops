@@ -18,5 +18,5 @@ To be able to support the desperate better.
 * [Blob storage](blob.md)
 * [Managed disks](disks.md)
 * [Files](files.md)
-* [CSI](csi.md)
+* [Container Storage Interface (CSI)](csi.md)
 
