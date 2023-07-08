@@ -15,6 +15,7 @@ To be able to support the desperate better.
 * [SSDLC methodologies](methodologies.md)
 * [Implementing SSDLC](implement.md)
 * [Risk assessment](risk-assessment.md)
+* [Privacy Impact Assessment (PIA)](pia.md)
 * [Threat modelling](threat-model.md)
 * [Secure coding](coding.md)
 * [Security assessments](sec-assessment.md)

@@ -33,6 +33,7 @@ Many factors can make such a significant cultural shift difficult, from entrench
    docs/notes/methodologies.md
    docs/notes/implement.md
    docs/notes/risk-assessment.md
+   docs/notes/pia.md
    docs/notes/threat-model.md
    docs/notes/coding.md
    docs/notes/sec-assessment.md
