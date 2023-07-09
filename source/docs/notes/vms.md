@@ -11,7 +11,7 @@ Each cloud provider has its own implementation of VMs (or virtual servers). The 
 7. Use the service.
 8. Carry out ongoing maintenance of the operating system.
 
-With the shared responsibility model, when using IaaS, we (as the customers) are responsible for the deployment and maintenance of virtual servers.
+With the [shared responsibility model](shared.md), when using IaaS, we (as the customers) are responsible for the deployment and maintenance of virtual servers.
 
 ## Best practices
 

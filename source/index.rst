@@ -38,7 +38,6 @@ Many factors can make such a significant cultural shift difficult, from entrench
    docs/notes/coding.md
    docs/notes/sec-assessment.md
    docs/notes/automation.md
-   docs/notes/barebones.md
    docs/notes/shared.md
    docs/notes/vms.md
    docs/notes/db-services.md
@@ -48,8 +47,24 @@ Many factors can make such a significant cultural shift difficult, from entrench
    docs/notes/block.md
    docs/notes/file.md
    docs/notes/csi.md
+   docs/notes/virt.md
+   docs/notes/dns.md
+   docs/notes/cdn.md
+   docs/notes/vpn.md
+   docs/notes/ddos.md
+   docs/notes/waf.md
    docs/notes/iam.md
    docs/notes/monitoring.md
+
+----
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Labs
+
+   docs/labs/barebones.md
 
 ----
 
