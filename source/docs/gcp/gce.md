@@ -64,7 +64,7 @@ To deploy security patches for either Windows- or Linux-based instances, in a st
 
 * Use minimal privileges for the accounts using operating system patch management to deploy security patches, according to Google Cloud IAM roles.
 * [Gradually deploy security patches zone by zone and region by region](https://cloud.google.com/blog/products/management-tools/best-practices-for-os-patch-management-on-compute-engine).
-* Use tagging (labeling) for VM instances to allow defining groups of VM instances (for example, production versus development environments).
+* Use tagging (labelling) for VM instances to allow defining groups of VM instances (for example, production versus development environments).
 * For stateless VMs (where no user session data is stored inside a Google VM), replace an existing Google VM with a new instance, created from an up-to-date operating system image.
 
 
