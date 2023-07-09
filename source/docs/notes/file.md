@@ -7,3 +7,8 @@ File storage is a piece of storage such as the on-premises network-attached stor
 * can control access permissions to the remote filesystem.
 * enables automatic filesystem growth.
 
+## Best practices
+
+* [Amazon Elastic File System (EFS)](../aws/efs.md)
+* [Azure Files](../azure/files.md)
+* [Google Filestore](../gcp/filestore.md)
