@@ -19,6 +19,7 @@ To be able to support the desperate better.
 * [Threat modelling](threat-model.md)
 * [Secure coding](coding.md)
 * [Security assessments](sec-assessment.md)
+* [Security automation](automation.md)
 * [Barebones pipeline](barebones.md)
 * [Shared responsibility](shared.md)
 * [Securing virtual machines](vms.md)
@@ -29,3 +30,5 @@ To be able to support the desperate better.
 * [Securing block storage](block.md)
 * [Securing file storage](file.md)
 * [Securing the container storage interface](csi.md)
+* [Identity management](iam.md)
+* [Monitoring and auditing](monitoring.md)

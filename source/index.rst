@@ -37,6 +37,7 @@ Many factors can make such a significant cultural shift difficult, from entrench
    docs/notes/threat-model.md
    docs/notes/coding.md
    docs/notes/sec-assessment.md
+   docs/notes/automation.md
    docs/notes/barebones.md
    docs/notes/shared.md
    docs/notes/vms.md
@@ -47,6 +48,8 @@ Many factors can make such a significant cultural shift difficult, from entrench
    docs/notes/block.md
    docs/notes/file.md
    docs/notes/csi.md
+   docs/notes/iam.md
+   docs/notes/monitoring.md
 
 ----
 
