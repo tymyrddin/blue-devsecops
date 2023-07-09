@@ -6,9 +6,15 @@ Virtual networking (such as Amazon VPC, Azure VNet, or Google Cloud Platform (GC
 
 In the cloud, a network is software-based (software-defined networking (SDN)). In the cloud, you have micro-segmentation, which means you can configure allow and deny access control rules between two instances (even if they are located on the same subnet). You will also be able to audit and control access to a resource such as an API.
 
-A virtual network is a network area inside your cloud environment where most of the common cloud resources reside (such as virtual servers, managed databases, and so on). These resources are split into multiple network segments called subnets. There can be one or more virtual networks in each customer's cloud environment, but at the end of the day, the basic idea is the same:
+A virtual network is a network area inside a cloud environment where most of the common cloud resources reside (such as virtual servers, managed databases, and so on). These resources are split into multiple network segments called subnets. There can be one or more virtual networks in each customer's cloud environment, but at the end of the day, the basic idea is the same:
 
 * Access to subnets is controlled by access controls (such as Layer 4 firewalls).
 * Subnets can be private (no direct access from the internet) or public (access from the internet is allowed).
 * If you need to allow access to the internet for private subnet resources, you need to configure a NAT gateway.
 * Virtual networks can be connected with each other via peer connections.
+
+## Best practices
+
+* [Amazon Virtual Private Cloud (VPC)](../aws/vpc.md)
+* [Azure Virtual Network (VNet)](../azure/vnet.md)
+* [Google Cloud VPC](../gcp/vpc.md)

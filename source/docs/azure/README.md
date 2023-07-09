@@ -19,4 +19,6 @@ To be able to support the desperate better.
 * [Managed disks](disks.md)
 * [Files](files.md)
 * [Container Storage Interface (CSI)](csi.md)
+* [Virtual Network (VNet)](vnet.md)
+* [Managed DNS](dns.md)
 

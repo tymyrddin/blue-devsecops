@@ -114,6 +114,8 @@ Best practices
    docs/azure/disks.md
    docs/azure/files.md
    docs/azure/csi.md
+   docs/azure/vnet.md
+   docs/azure/dns.md
 
 .. toctree::
    :glob:
@@ -130,6 +132,8 @@ Best practices
    docs/gcp/disk.md
    docs/gcp/filestore.md
    docs/gcp/csi.md
+   docs/gcp/vpc.md
+   docs/gcp/dns.md
 
 ----
 

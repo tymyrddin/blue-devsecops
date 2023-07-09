@@ -18,4 +18,6 @@ To be able to support the desperate better.
 * [Permanent Disk](disk.md)
 * [Filestore](filestore.md)
 * [Container Storage Interface (CSI)](csi.md)
+* [Virtual Private Cloud (VPC)](vpc.md)
+* [Managed DNS](dns.md)
 
