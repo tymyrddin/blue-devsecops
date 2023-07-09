@@ -116,6 +116,9 @@ Best practices
    docs/azure/csi.md
    docs/azure/vnet.md
    docs/azure/dns.md
+   docs/azure/cdn.md
+   docs/azure/s2s-vpn.md
+   docs/azure/p2s-vpn.md
 
 .. toctree::
    :glob:
@@ -134,6 +137,8 @@ Best practices
    docs/gcp/csi.md
    docs/gcp/vpc.md
    docs/gcp/dns.md
+   docs/gcp/cdn.md
+   docs/gcp/vpn.md
 
 ----
 

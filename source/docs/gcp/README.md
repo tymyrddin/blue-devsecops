@@ -20,4 +20,6 @@ To be able to support the desperate better.
 * [Container Storage Interface (CSI)](csi.md)
 * [Virtual Private Cloud (VPC)](vpc.md)
 * [Managed DNS](dns.md)
+* [Content delivery network (CDN)](cdn.md)
+* [Managed VPN](vpn.md)
 

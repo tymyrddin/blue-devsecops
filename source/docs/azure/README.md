@@ -21,4 +21,6 @@ To be able to support the desperate better.
 * [Container Storage Interface (CSI)](csi.md)
 * [Virtual Network (VNet)](vnet.md)
 * [Managed DNS](dns.md)
-
+* [Content delivery network (CDN)](cdn.md)
+* [Site-to-Site VPN](s2s-vpn.md)
+* [Point-to-Site VPN](p2s-vpn.md)
