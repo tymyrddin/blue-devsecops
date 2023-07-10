@@ -7,7 +7,7 @@ These services can help mitigate DDoS attacks:
 * DDoS protection services
 * Auto-scaling groups combined with load-balancing services
 * CDN services
-* WAF services
+* [WAF services](waf.md)
 
 ## Best practices
 

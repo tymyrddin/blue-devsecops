@@ -15,7 +15,7 @@ DDoS response team.
 * Use AWS Shield Advanced for large-scale production environments you expose to the internet for better insights into the attacks.
 * When using AWS Shield Advanced, register an Elastic IP (EIP) address as a protected source to allow quicker detection of attacks.
 * When using AWS Shield Advanced, you can generate near real-time reports about attacks on resources in your AWS account(s).
-* When combining AWS Shield and the AWS WAF service, use Amazon CloudWatch to monitor incoming requests and alert you when there is a spike in incoming requests, to have preliminary alerts on incoming DDoS attacks.
+* When combining AWS Shield and the [AWS WAF](waf.md) service, use Amazon CloudWatch to monitor incoming requests and alert you when there is a spike in incoming requests, to have preliminary alerts on incoming DDoS attacks.
 * Use AWS Identity and Access Management (IAM) to limit the permissions to the AWS Shield Console.
 * Use AWS CloudTrail to log actions in the AWS Shield Console.
 

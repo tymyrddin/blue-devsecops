@@ -22,4 +22,5 @@ To be able to support the desperate better.
 * [Managed DNS](dns.md)
 * [Content delivery network (CDN)](cdn.md)
 * [Managed VPN](vpn.md)
+* [Google Cloud IAM](iam.md)
 

@@ -26,3 +26,4 @@ To be able to support the desperate better.
 * [Point-to-Site VPN](p2s-vpn.md)
 * [DDoS Protection](ddos.md)
 * [WAF](waf.md)
+* [Azure AD](aad.md)
