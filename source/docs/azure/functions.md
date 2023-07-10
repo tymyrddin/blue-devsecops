@@ -7,7 +7,7 @@ Azure Functions is the Azure function as a service. It can integrate with other 
 Azure AD is the supported service for managing permissions to your Azure Functions.
 
 * [How to use managed identities for App Service and Azure Functions](https://docs.microsoft.com/en-us/azure/app-service/overview-managed-identity?toc=/azure/azure-functions/toc.json)
-* [Azure Functions authorizations](https://docs.microsoft.com/en-us/azure/api-management/import-function-app-as-api#authorization)
+* [Azure Functions authorisations](https://docs.microsoft.com/en-us/azure/api-management/import-function-app-as-api#authorization)
 * [Use Key Vault references for App Service and Azure Functions](https://docs.microsoft.com/en-us/azure/app-service/app-service-key-vault-references)
 
 ### Best practices

@@ -2,7 +2,7 @@
 
 Google Cloud Storage is the GCP object storage service.
 
-## Authentication and authorization
+## Authentication and authorisation
 
 Access can be controlled at the entire bucket level (including all objects inside this bucket) or on a specific object level (for example, suppose you would like to share a specific file with several of your colleagues).
 

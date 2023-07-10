@@ -123,6 +123,7 @@ Best practices
    docs/azure/cdn.md
    docs/azure/s2s-vpn.md
    docs/azure/p2s-vpn.md
+   docs/azure/ddos.md
 
 .. toctree::
    :glob:
@@ -143,6 +144,7 @@ Best practices
    docs/gcp/dns.md
    docs/gcp/cdn.md
    docs/gcp/vpn.md
+   docs/gcp/armor.md
 
 ----
 

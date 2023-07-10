@@ -1,19 +1,19 @@
 # Blob storage
 
-## Authentication and authorization
+## Authentication and authorisation
 
-Azure controls authorization for Blob storage using Azure Active Directory. For temporary access to Azure Blob storage (that is, for an application or a non-human
+Azure controls authorisation for Blob storage using Azure Active Directory. For temporary access to Azure Blob storage (that is, for an application or a non-human
 interaction), use shared access signatures (SAS).
 
-* [Authorize access to blobs using Azure Active Directory](https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad)
-* [Prevent Shared Key authorization for an Azure Storage account](https://docs.microsoft.com/en-us/azure/storage/common/shared-key-authorization-prevent?tabs=portal)
+* [Authorise access to blobs using Azure Active Directory](https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad)
+* [Prevent Shared Key authorisation for an Azure Storage account](https://docs.microsoft.com/en-us/azure/storage/common/shared-key-authorization-prevent?tabs=portal)
 * [Grant limited access to Azure Storage resources using shared access signatures (SAS)](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview)
 * [Security recommendations for Blob storage](https://docs.microsoft.com/en-us/azure/storage/blobs/security-recommendations)
 
 ### Best practices
 
 * Create an Azure AD group, add users to the AD group, and then grant the required permissions on the target Blob storage to the target AD group.
-* Use shared key authorization (SAS) to allow applications temporary access to Blob storage.
+* Use shared key authorisation (SAS) to allow applications temporary access to Blob storage.
 * Grant minimal permissions to Azure Blob storage.
 * For data that you need to retain for long periods (due to regulatory requirements), use an immutable Blob storage lock to protect the data from accidental deletion.
 
@@ -49,6 +49,6 @@ Azure allows you to monitor blob storage using Azure Monitor and Azure Security 
 ### Best practices
 
 * Enable log alerts using the Azure Monitor service to track access to the Azure Blob storage and raise alerts (such as multiple failed access attempts to Blob storage in a short period of time).
-* Enable Azure storage logging to audit all authorization events for access to the Azure Blob storage.
-* Log anonymous successful access attempts to locate an unauthorized access attempt to the Azure Blob storage.
+* Enable Azure storage logging to audit all authorisation events for access to the Azure Blob storage.
+* Log anonymous successful access attempts to locate an unauthorised access attempt to the Azure Blob storage.
 * Enable Azure Defender for Storage to receive security alerts in the Azure Security Center console.

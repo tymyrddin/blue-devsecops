@@ -44,7 +44,7 @@ between your VPC resources and the VPC endpoint (AWS managed services).
 * Use AWS CloudTrail to monitor VPC configuration.
 * Enable VPC Flow Logs to log and further analyze allowed and denied traffic
 activity. Combined with Amazon GuardDuty, you will be able to detect anomalous
-network behavior, such as interaction with command and control (C&C) networks,
+network behaviour, such as interaction with command and control (C&C) networks,
 malicious IP addresses, and more. 
 * Use AWS Config or AWS Security Hub to detect inbound access to resources
 inside your VPC via unencrypted protocols (such as HTTP instead of HTTPS, or

@@ -8,7 +8,7 @@ AWS IAM is the supported service for managing permissions to access and run cont
 
 * [Amazon ECS container instance IAM role](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/instance_IAM_role.html).
 * [IAM roles for tasks](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-iam-roles.html).
-* [Authorization based on Amazon ECS tags](https://docs.aws.amazon.com/AmazonECS/latest/userguide/security_iam_service-with-iam.html#security_iam_service-with-iam-tags).
+* [authorisation based on Amazon ECS tags](https://docs.aws.amazon.com/AmazonECS/latest/userguide/security_iam_service-with-iam.html#security_iam_service-with-iam-tags).
 * [Using IAM to control filesystem data access](https://docs.aws.amazon.com/efs/latest/ug/iam-access-control-nfs-efs.html).
 * [Amazon ECS task and container security](https://docs.aws.amazon.com/AmazonECS/latest/bestpracticesguide/security-tasks-containers.html).
 

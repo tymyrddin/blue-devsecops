@@ -2,7 +2,7 @@
 
 Google Filestore is a GCP file storage service based on the NFS protocol.
 
-## Authentication and authorization
+## Authentication and authorisation
 
 Google Cloud IAM is the supported service in which to manage permissions to access Google Filestore.
 

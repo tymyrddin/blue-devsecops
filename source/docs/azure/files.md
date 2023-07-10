@@ -2,7 +2,7 @@
 
 Azure Files is an Azure file storage service based on the SMB protocol.
 
-## Authentication and authorization
+## Authentication and authorisation
 
 Azure supports Active Directory Domain Services (AD DS) and Azure Active Directory Domain Services (Azure AD DS), an add-on service to Azure AD, which allows for authenticating to legacy services (SMB in the case of Azure Files) and protocols (Kerberos in the case of Azure Files).
 
@@ -49,4 +49,4 @@ Azure allows monitoring Azure Files using Azure Monitor and Advanced Threat Prot
 
 * Enable log alerts using the Azure Monitor service to track access to Azure Files and raise alerts (such as multiple failed access attempts to Azure Files in a short period of time).
 * Enable Azure Defender for Storage to receive security alerts inside the Azure Security Center console.
-* Enable Azure storage logging to audit all authorization events for access to the Azure storage.
+* Enable Azure storage logging to audit all authorisation events for access to the Azure storage.

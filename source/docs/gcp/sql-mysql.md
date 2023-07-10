@@ -16,14 +16,14 @@ MySQL supports the following types of authentication methods:
 
 Access to a managed MySQL database service is controlled via one of the following options:
 
-* [Authorized networks](https://cloud.google.com/sql/docs/mysql/authorize-networks): Allows you to configure which IP addresses (or CIDR) are allowed to access your managed MySQL database.
+* [Authorised networks](https://cloud.google.com/sql/docs/mysql/authorize-networks): Allows you to configure which IP addresses (or CIDR) are allowed to access your managed MySQL database.
 * [Cloud SQL Auth proxy](https://cloud.google.com/sql/docs/mysql/connect-admin-proxy): Client installed on your application side, which handles authentication to the Cloud SQL for MySQL database in a secure and encrypted tunnel.
 
 ### Best practices
 
 * Managed databases must never be accessible from the internet or a publicly accessible subnet – always use private subnets to deploy your databases.
 * If possible, the preferred option is to use the [Cloud SQL Auth proxy](https://cloud.google.com/sql/docs/mysql/connect-admin-proxy).
-* Configure authorized networks for your web or application servers to allow access to your Cloud SQL for MySQL.
+* Configure authorised networks for your web or application servers to allow access to your Cloud SQL for MySQL.
 * If you need to manage the MySQL database service, use either a GCE VM instance to manage the MySQL database remotely or a [Cloud VPN](https://cloud.google.com/network-connectivity/docs/vpn/concepts/overview) (configures an IPSec tunnel to a VPN gateway device).
 
 ## Stored data

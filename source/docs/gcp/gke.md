@@ -35,7 +35,7 @@ GKE exposes services to the internet => it is important to plan before deploying
 ### Best practices
 
 * Create private GKE clusters to avoid exposing the GKE cluster control plane (API server) to the public internet – use alias IP ranges to configure which IPs can access the GKE cluster.
-* Use authorized networks to configure who can access your GKE cluster control plane.
+* Use authorised networks to configure who can access your GKE cluster control plane.
 * Use VPC-native networking to protect the access between the Kubernetes Pods.
 * Use network policies for Kubernetes to protect the access between the Kubernetes Pods.
 * Use shielded GKE nodes as an additional layer of protection to your GKE cluster nodes.
@@ -57,7 +57,7 @@ Google allows you to enable logging and auditing using the Google Cloud Logging 
 ### Best practices
 
 * Enable logging for any newly created GKE cluster and integrate the item with the Google Cloud Logging service, to log all audit activities related to your GKE cluster.
-* When using a container-optimized operating system image, make sure you send its Linux audit logs to the Google Cloud Logging service.
+* When using a container-optimised operating system image, make sure you send its Linux audit logs to the Google Cloud Logging service.
 * Limit the access to the Google Cloud Logging service logs to the minimum number of employees to avoid possible deletion or changes to the audit logs.
 
 ## Enabling compliance
@@ -66,7 +66,7 @@ Google allows you to enable logging and auditing using the Google Cloud Logging 
 * [GKE CIS 1.1.0 Benchmark Inspec Profile](https://github.com/GoogleCloudPlatform/inspec-gke-cis-benchmark)
 * [GKE auditor](https://github.com/google/gke-auditor)
 * [Node images](https://cloud.google.com/kubernetes-engine/docs/concepts/node-images#containerd_node_images)
-* [Binary authorization](https://cloud.google.com/binary-authorization)
+* [Binary authorisation](https://cloud.google.com/binary-authorization)
 * [Container Registry](https://cloud.google.com/container-registry)
 
 ### Best practices
@@ -74,8 +74,8 @@ Google allows you to enable logging and auditing using the Google Cloud Logging 
 * Use only trusted image containers and store them inside Google Container Registry – a private repository for storing your organizational images.
 * Always use the latest build of Kubernetes on both your GKE cluster and cluster nodes.
 * Use the GKE auditor to detect GKE misconfigurations.
-* Use container-optimized operating systems when creating new container images, for better security.
+* Use container-optimised operating systems when creating new container images, for better security.
 * Build your container images from scratch (to avoid malicious code in preconfigured third-party images).
 * Scan your container images for vulnerabilities in libraries and binaries and update your images on a regular basis.
-* Use Google Binary Authorization to make sure you use only signed container images from trusted authorities.
+* Use Google Binary authorisation to make sure you use only signed container images from trusted authorities.
 * Use container threat detection to detect attacks against your container images in real time.

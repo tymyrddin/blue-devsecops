@@ -47,6 +47,6 @@ As with any other managed service, AWS allows for logging and auditing using two
 
 ### Best practices
 
-* Enable Amazon CloudWatch alarms for high-performance usage (which may indicate anomalies in the database behavior).
+* Enable Amazon CloudWatch alarms for high-performance usage (which may indicate anomalies in the database behaviour).
 * Enable AWS CloudTrail for any database, to log any activity performed on the database by any user, role, or AWS service.
 * Limit access to the CloudTrail logs to the minimum number of people – preferably in an AWS management account, outside the scope of your end users (including outside the scope of your database administrators), to avoid possible deletion or changes to the audit logs.

@@ -24,7 +24,7 @@ To enable EBS encryption by default in a specific AWS region:
 * Encrypt each EBS volume at creation time. 
 * Encrypt EBS volume snapshots. 
 * Use AWS Config to detect unattached EBS volumes. 
-* Use an IAM policy to define who can attach, detach, or create a snapshot for EBS volumes to minimize the risk of data exfiltration. 
+* Use an IAM policy to define who can attach, detach, or create a snapshot for EBS volumes to minimise the risk of data exfiltration. 
 * Avoid configuring public access to your EBS volume snapshots – make sure all snapshots are encrypted. 
 * For highly sensitive environments, encrypt EBS volumes using the customer master key. 
 * Set names and descriptions for EBS volumes to better understand which EBS volume belongs to which EC2 instance. 

@@ -7,7 +7,7 @@ AKS is the Azure-managed Kubernetes orchestration service. It can integrate with
 Azure AD is the supported service for managing permissions to access and run containers through Azure AKS.
 
 * [AKS-managed Azure AD integration](https://docs.microsoft.com/en-us/azure/aks/managed-aad)
-* [Best practices for authentication and authorization in AKS](https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-identity)
+* [Best practices for authentication and authorisation in AKS](https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-identity)
 
 ### Best practices
 
@@ -29,7 +29,7 @@ Azure AKS exposes services to the internet – it is important to plan before de
 
 ### Best practices
 
-* Avoid exposing the AKS cluster control plane (API server) to the public internet – create a private cluster with an internal IP address and use authorized IP ranges to define which IPs can access your API server.
+* Avoid exposing the AKS cluster control plane (API server) to the public internet – create a private cluster with an internal IP address and use authorised IP ranges to define which IPs can access your API server.
 * Use the Azure Firewall service to restrict outbound traffic from AKS cluster nodes to external DNS addresses (for example, software updates from external sources).
 * Use TLS 1.2 to control Azure AKS using API calls.
 * Use TLS 1.2 when configuring Azure AKS behind Azure Load Balancer.

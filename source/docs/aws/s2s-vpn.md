@@ -4,7 +4,7 @@ AWS Site-to-Site VPN is a managed service connecting corporate networks to the A
 
 ## Best practices
 
-* Restrict access to AWS resources inside your AWS environment using Amazon VPC security groups and authorization rules.
+* Restrict access to AWS resources inside your AWS environment using Amazon VPC security groups and authorisation rules.
 * For non-sensitive environments, use pre-shared keys to authenticate to the site-to-site VPN tunnel.
 * For highly sensitive environments, use a private certificate from the AWS Certificate Manager (ACM) Private Certificate Authority (CA) service.
 * Create an IAM group, add users to the group, and grant the required permissions on the AWS Site-to-Site VPN connection for the target group an example of an IAM role would be the ability to invoke an API action through the VPN).

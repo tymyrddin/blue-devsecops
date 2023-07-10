@@ -4,7 +4,7 @@ AWS Client VPN allows you to connect to the AWS environment from anywhere on the
 
 ## Best practices
 
-* Restrict access to AWS resources inside your AWS environment using VPC security groups and authorization rules.
+* Restrict access to AWS resources inside your AWS environment using VPC security groups and authorisation rules.
 * If you are managing your user identities with AWS Directory Service, use AWS Client VPN Active Directory authentication.
 * If you are using the SAML 2.0 federated authentication service, use AWS Client VPN single sign-on authentication (SAML authentication).
 * For highly sensitive environments, use AWS Client VPN certificate-based authentication using the ACM service.

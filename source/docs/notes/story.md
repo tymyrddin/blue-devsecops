@@ -28,7 +28,7 @@ In such a workflow, even a tiny problem could create a mess. Moreover, as the nu
 
 ### The infinite loop
 
-DevOps is visualized as an infinite loop, describing all the comprising phases:
+DevOps is visualised as an infinite loop, describing all the comprising phases:
 
 ![Infinite loop](../../_static/images/loop.png)
 

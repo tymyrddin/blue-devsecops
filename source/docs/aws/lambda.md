@@ -58,7 +58,7 @@ As a customer, you cannot control the underlying infrastructure => invest in sec
 
 * [Using AWS Lambda with AWS Config](https://docs.aws.amazon.com/lambda/latest/dg/services-config.html)
 * [Lambda function versions](https://docs.aws.amazon.com/lambda/latest/dg/configuration-versions.html)
-* [Use API Gateway Lambda authorizers](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-use-lambda-authorizer.html)
+* [Use API Gateway Lambda authorisers](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-use-lambda-authorizer.html)
 * [Setting up automatic assessment runs through a Lambda function](https://docs.aws.amazon.com/inspector/latest/userguide/inspector_assessments.html#assessment_runs-schedule)
 * [Configuring code signing for AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/configuration-codesigning.html)
 * [OWASP Serverless Top 10](https://owasp.org/www-project-serverless-top-10/)
@@ -68,6 +68,6 @@ As a customer, you cannot control the underlying infrastructure => invest in sec
 * Follow the OWASP Serverless Top 10 project documentation when writing your Lambda function code.
 * Enable versions in your Lambda functions, to be able to roll back to previous code.
 * Use AWS Signer to sign your Lambda function code and make sure you only run signed code.
-* If you use Amazon API Gateway in front of your Lambda functions, use the API Gateway Lambda authorizer as an extra layer of protection for authorizing access to your Lambda functions.
+* If you use Amazon API Gateway in front of your Lambda functions, use the API Gateway Lambda authoriser as an extra layer of protection for authorizing access to your Lambda functions.
 * Use AWS Config to check for changes in your Lambda functions.
 * Use Amazon Inspector assessment templates to detect non-compliance or the use of old versions of a runtime in your Lambda functions.
