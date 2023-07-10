@@ -30,8 +30,6 @@ Transparency would refer to introducing tools and practices that are accessible 
 
 ## Understanding and empathy
 
-Instilling security in DevOps processes with visibility and transparency is no easy task. There is a factor that can determine success: the level of understanding and empathy. This means that the definition of risk for security teams is unequivocal, but for other teams, risk can be different and just as precise for them. This doesn't only apply to risk but to an umbrella of things; it ramifies into what they prioritise, how they work, and what they think is important enough to leave aside a project with a tight deadline to fix a bug.
-
 There is no magic tool or process for everyone. It is essential to understand how developers/engineers work, what they know to be a risk, and what they prioritise. If you know their perspective, it's easier to build a process that finds common ground and has a higher chance to work vs adding another tool that creates more noise and stress for everyone. This understanding builds perspective, which accounts for empathy for how other teams work and builds a process that accounts for flexibility. This is needed because every situation might be different, deadlines might be different, and bandwidth can change over time.
 
 As a DevSecOps engineer, suppose you took the time to understand how a team owns a service. You can tune the scanners or add a triaging process that tackles the questions they would ask themselves, and this would, in turn, build trust vs crying wolf and security processes being questioned.

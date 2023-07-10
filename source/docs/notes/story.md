@@ -12,7 +12,7 @@ For example, ensuring developers can now be involved in deployment and sysadmins
 
 DevOps builds a philosophy that emphasises building trust and better liaising between developers and other teams (sysadmins, QA, etc.). This helps the organisation align technological projects to business requirements, increasing the impact and value to the business as projects become more efficient and prioritised accordingly. Changes rolled out are usually small and reversible, visible to all teams involved. This ensures better contribution and communication that helps with the pace and an increased competency when delivering work.
 
-### TL;DR
+## TL;DR
 
 Development infrastructure can be fully automated and operate on a self-service basis:
 
@@ -26,7 +26,7 @@ The imperative/procedural approach takes action to configure systems in a series
 
 In such a workflow, even a tiny problem could create a mess. Moreover, as the number of new releases increases (the actual case), the whole matter may turn disastrous. Things would surely go out of hand with an issue still unresolved and plenty of features scheduled to be released.
 
-### The infinite loop
+## The infinite loop
 
 DevOps is visualised as an infinite loop, describing all the comprising phases:
 
@@ -45,7 +45,7 @@ Security can supposedly be easily integrated because of the visibility and flexi
 
 Since security can now be introduced early, risks are reduced massively. In the past, you would find out about security flaws and bugs at the very late stages, even in production. They are leading to stress, rollbacks, and economic losses. Integrating code analysis tools and automated tests earlier in the process can now identify these security flaws during early development.
 
-### Shifting left
+## Shifting left
 
 In the past, security testing was implemented at the end of the development cycle. As the industry evolved and security functions were introduced, security teams would perform various analyses and security testing in the final stages of the lifecycle.
 
