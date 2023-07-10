@@ -124,6 +124,7 @@ Best practices
    docs/azure/s2s-vpn.md
    docs/azure/p2s-vpn.md
    docs/azure/ddos.md
+   docs/azure/waf.md
 
 .. toctree::
    :glob:

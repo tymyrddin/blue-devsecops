@@ -25,3 +25,4 @@ To be able to support the desperate better.
 * [Site-to-Site VPN](s2s-vpn.md)
 * [Point-to-Site VPN](p2s-vpn.md)
 * [DDoS Protection](ddos.md)
+* [WAF](waf.md)
