@@ -1,4 +1,4 @@
-Shifting left
+DevSecOps
 ===========================================================
 
 Shifting left is a buzzword used for conveying that making security an integral part of development is the only practical approach for agile workflows. It's mission: Find and prevent defects early in the software delivery process. The idea is to improve quality by moving tasks from "the right" to "the left" as early in the software development lifecycle (SDLC) as possible.
