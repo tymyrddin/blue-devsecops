@@ -46,13 +46,6 @@ A lot of companies still use ADFS, but it is no longer a hard requirement to use
 
 Cloud providers take a different approach to IAM:
 
-* AWS IAM: By default, all requests are implicitly denied.
-* Azure Active Directory (Azure AD): By default, users have a minimal set of permissions in which to access resources.
-* GCP: By default, service accounts have permission to call Google Cloud APIs.
-
-## Best practices
-
-* [AWS IAM](../aws/iam.md)
-* [Azure AD](../azure/aad.md)
-* [Google Cloud IAM](../gcp/iam.md)
-
+* [AWS IAM](../aws/iam.md): By default, all requests are implicitly denied.
+* [Azure AD](../azure/aad.md): By default, users have a minimal set of permissions in which to access resources.
+* [Google Cloud IAM](../gcp/iam.md): By default, service accounts have permission to call Google Cloud APIs.
