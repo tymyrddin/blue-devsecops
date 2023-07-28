@@ -79,6 +79,15 @@ Best practices
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: CI/CD
+
+   docs/cicd/README.md
+   docs/cicd/docker.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
    :caption: AWS
 
    docs/aws/README.md
