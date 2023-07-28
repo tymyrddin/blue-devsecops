@@ -83,6 +83,8 @@ Best practices
 
    docs/cicd/README.md
    docs/cicd/docker.md
+   docs/cicd/git.md
+   docs/cicd/artifacts.md
 
 .. toctree::
    :glob:
