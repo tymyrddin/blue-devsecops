@@ -12,4 +12,5 @@ sphinxcontrib-applehelp
 sphinxcontrib-devhelp
 sphinxcontrib-htmlhelp
 sphinxcontrib-jsmath
+sphinx_copybutton
 urllib3
